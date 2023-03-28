@@ -13,7 +13,7 @@ describe("Sumar", () => {
       it("devolver la suma de una cadena de numeros", () => {
         expect(sumarCadena("1,2,3,4,5,6")).toEqual(21);
       });
-      it("devolver la suma de una cadena de numeros con separador de coma", () => {
+      it("devolver la suma de una cadena de numeros con separador de guion ", () => {
         expect(sumarCadena("1-2-3-4-5-6")).toEqual(21);
       });
   });
